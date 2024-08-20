@@ -1,0 +1,98 @@
+/* 
+  ------------  General Styles  ------------
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:1440px;
+    margin:0 auto;
+    height: 100%;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    background: url('assets/images/background-pattern-desktop.svg') no-repeat top;
+    background-color: hsl(275, 100%, 97%);
+    line-height: 1.8rem;
+}
+img{
+    max-width: 100%;
+}
+
+h1{
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* 
+  ------------  Main Styles  ------------
+*/
+
+main{
+  height:100%;
+  width: 700px;
+  margin:140px auto;
+  background:  hsl(0, 0%, 100%);
+  padding: 35px;
+  border-radius: 1rem;
+}
+
+main section{
+  margin:25px auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  gap:25px;
+  margin:7px 0 20px 0;
+}
+
+.header img{
+  width: 35px;
+}
+.faqs>div{
+  margin:20px auto;
+}
+.faq{
+  padding-bottom: 7px;
+}
+
+.faq .ans{
+  color:hsl(292, 16%, 49%);
+}
+
+
+.faq .qn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.faq .qn:hover{
+  color:hsl(285, 81%, 42%);
+}
+
+.faq .ans{
+  display: none;
+}
+.faq .ans1{
+  display: block;
+}
+
+
+/* 
+  ------------  Footer Styles  ------------
+*/
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
